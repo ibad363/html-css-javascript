@@ -1,0 +1,15 @@
+BODY{
+    background-color: rgb(87, 171, 255);
+    text-align: center;
+}
+
+A{
+    text-decoration:underline;
+    font-family:Verdana;
+    color: aliceblue;
+    margin: 100PX;
+}
+
+ul{
+    list-style-type: none;
+}

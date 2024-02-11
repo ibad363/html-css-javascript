@@ -1,0 +1,17 @@
+.class{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 145, 0);
+}
+
+#addtobag{
+  background-color: rgb(110, 232, 110);
+  border-radius: 10px;
+  border-style: none;
+  padding: 5px  15px;
+}
+
+#wishlist{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0px 25px;
+}

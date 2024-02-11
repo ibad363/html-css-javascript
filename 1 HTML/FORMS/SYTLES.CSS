@@ -1,0 +1,21 @@
+#REGFORM{
+    background-color: #27aad1;
+    color: rgb(255, 255, 255);
+}
+
+.firstcolmn{
+    background-color: rgb(250, 167, 43);
+}
+
+.TABLE{
+    border-style:double;
+    border-radius: 15PX;
+    border-color: yellowgreen;
+    border-width: 15PX;
+    margin-bottom: 20PX;
+    outline-color: rgb(255, 39, 39);
+}
+
+tr td:nth-child(2){
+    background-color: rgb(217, 255, 0);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYNTRA PRACTICE</title>
+  <style>
+    .addbutton {
+      padding: 5px 15px;
+      border: none;
+      border-radius: 10px;
+      background-color: rgb(108, 255, 4);
+      text-transform: capitalize;
+    }
+
+    .minusbutton {
+      padding: 5px 40px;
+      border: solid black 2px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- practice 1 -->
+
+  <!-- <button class="addbutton" onclick="cartQuanByButton += 1; document.querySelector('#cartQuantity').innerText = `${cartQuanByButton}`;">Add to Bag</button>
+
+  <button class="minusbutton" onclick="cartQuanByButton --; document.querySelector('#cartQuantity').innerText = `${cartQuanByButton}`;">MOVE TO WISHLIST</button>
+
+  <button class="addbutton" onclick="cartQuanByButton += 2; document.querySelector('#cartQuantity').innerText = `${cartQuanByButton}`;">Add 1+1 sale item</button>
+
+  <h1>Your Bag has <span id="cartQuantity"> 0 </span> items</h1>
+
+  <script>
+    let cartQuanByButton = 0;
+    document.querySelector('#cartQuantity').innerText = `${cartQuanByButton}`;
+  </script> -->
+ 
+<!-- practice 2 -->
+
+  <button class="addbutton" onclick="cartQuantity ++;document.querySelector('#cart-summary').innerText = `${cartQuantity}`;">add to bag</button>
+  
+  <button class="minusbutton" onclick="cartQuantity --;document.querySelector('#cart-summary').innerText = `${cartQuantity}`;">wishlist</button>
+
+  <button class="addbutton" onclick="cartQuantity += 2;document.querySelector('#cart-summary').innerText = `${cartQuantity}`;">add 1+1 sale item</button>
+
+  <h1>Your Bag has <span id="cart-summary"></span> items</h1>
+
+  <script>
+    let cartQuantity = 0;
+    document.querySelector('#cart-summary').innerText = `${cartQuantity}`;
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

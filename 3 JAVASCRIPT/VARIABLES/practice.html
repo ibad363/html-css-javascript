@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chapter variable practice</title>
+</head>
+<body>
+  <h1 id="my-name"></h1>
+    <script>
+      const myName = 'Ibad';
+      document.querySelector('#my-name').innerText = myName;
+
+    let jeansamount = (2499 - (41/100*2499))-29;
+    let bagamount = (15599-(10/100*15599)) -272;
+    const gst = 18
+    let bagsummary = 'your final bag bill amount is RS.' + Math.round((jeansamount + bagamount +25 +20)*(100+gst)/100)+ ('');
+    console.log(bagsummary);
+    console.log(eval('20+40*2/8'))
+</script>
+</body>
+</html>
