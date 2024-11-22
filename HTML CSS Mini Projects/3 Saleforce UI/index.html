@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        <div id="header">
-            <div id="logo">
-                <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg" alt="">
-            </div>
+
+    <!-- Header Section -->
+    <header>
+        <div id="logo">
+            <img src="assets/logo.svg" alt="">
+        </div>
+        <div class="nav-link" id="nav-link">
             <div class="texts"><p>Products</p></div>
             <div class="texts"><p>Industries</p></div>
             <div class="texts"><p>Customers</p></div>
@@ -34,30 +36,96 @@
                 <i class="ri-user-3-fill"></i>
                 <p style="color: #1b4f72">Login</p>
             </div>
-            <div id="try"><p>Try For Free</p></div>
+        </div> 
+        
+        <div id="try"><p>Try For Free</p></div>
+        
+        <div class="hamburger" id="hamburger">
+            ☰
         </div>
-        <div id="fakehead"></div>
-        <div id="page1">
-            <div id="content">
-                <div id="box1">
-                    <h1>Try Salesforce Starter Suite for free.</h1>
-                    <p id="shortIntro">Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
-                    <div id="btns">
-                        <div id="btn1">
-                            <p>Start Free trial <i style="font-weight: lighter;" class="ri-external-link-line"></i></p>
-                        </div>
-                        <div id="btn2">
-                            <p>Watch Demo <i style="font-weight: lighter;" class="ri-external-link-line"></i></p>
-                        </div>
+    </header>
+
+    <!-- Main Section -->
+    <div id="main">
+        <!-- Hero Section -->
+        <div id="hero">
+            <div id="box1">
+                <h1>Try Salesforce Starter Suite for free.</h1>
+                <p id="shortIntro">Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+                <div class="buttons">
+                    <div class="button1">
+                        <p>Start Free trial <i style="font-weight: lighter;" class="ri-external-link-line"></i></p>
+                    </div>
+                    <div class="button2">
+                        <p>Watch Demo <i style="font-weight: lighter;" class="ri-external-link-line"></i></p>
                     </div>
                 </div>
-                <div id="box2">
-                    <img src="img.jpg" alt="">
-                    <video controls src="video.mp4"></video>
+            </div>
+            <div id="box2">
+                <video controls src="assets/video.mp4"></video>
+            </div>
+        </div>
+
+        <!-- Products Section -->
+        <div id="product-section">
+            <h1 class="section-title">Learn what Salesforce products can do for you.</h1>
+            <div id="boxes">
+                <!-- Box 1 -->
+                <div class="box">
+                <div class="icon-box"><img src="assets/icon1.ico" alt=""></div>
+                <h3>Small Business</h3>
+                <p>Sell smarter and provide support faster in a single app.</p>
+                <h5>Learn More</h5>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="box">
+                    <div class="icon-box"><img src="assets/icon2.ico" alt=""></div>
+                    <h3>Sales Cloud</h3>
+                    <p>Close more deals and speed up growth with the #1 CRM.</p>
+                    <h5>Learn More</h5>
+                </div>
+                 
+                <!-- Box 3 -->
+                <div class="box">
+                    <div class="icon-box"><img src="assets/icon3.ico" alt=""></div>
+                    <h3>Service Cloud</h3>
+                    <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                    <h5>Learn More</h5>
+                </div>
+
+                <!-- Box 4 -->
+                <div class="box">
+                    <div class="icon-box"><img src="assets/icon4.ico" alt=""></div>
+                    <h3>Marketing Cloud</h3>
+                    <p>Build customer relationships for life with data-first digital marketing.</p>
+                    <h5>Learn More</h5>
                 </div>
             </div>
-            <div id="heading"><h1>Learn what Salesforce products can do for you.</h1></div>
+            
+            <button class="button3">View all our products</button>
+        </div>
+
+        <!-- Trial Section -->
+        <div class="trial-section">
+            <h1>We bring companies and customers together</h1>
+            <p>Salesforce is the world’s most trusted customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
+            <div class="buttons2">
+                <button class="button4">Start Free Trial</button>
+                <button class="button3">Watch Demos</button>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+         <div class="skills-section">
+            
+         </div>
+
+        <!-- dummy text -->
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse maxime modi! Impedit veritatis inventore distinctio, accusamus necessitatibus nam consequatur deserunt magnam quidem laboriosam doloribus tempore placeat officia nemo possimus, quod magni obcaecati. Officia harum hic aperiam perferendis modi voluptates, eaque nulla ea mollitia debitis amet quibusdam fugiat, adipisci dolore suscipit inventore? Id ea nihil illum placeat eveniet voluptates tempore sapiente maxime saepe laboriosam aperiam doloribus cum unde ab molestias veritatis provident, quisquam voluptas. Error, illum, velit molestiae obcaecati maiores rem odio asperiores in aliquam facere, dolore neque. Ratione autem, reiciendis cumque laborum sunt molestias nesciunt aperiam praesentium labore architecto?
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
