@@ -359,9 +359,6 @@ header {
   padding: 15px 15px;
   border-radius: 5px;
   cursor: pointer;
-  @media (max-width:768px) {
-    width: 80vw;
-  }
 }
 
 .button3:hover{
@@ -382,9 +379,6 @@ header {
   justify-content: center;
   background-color: #0176d3;
   cursor: pointer;
-  @media (max-width:768px) {
-    width: 80vw;
-  }
 }
 
 .skills-section {
@@ -505,8 +499,8 @@ header {
   width: 60%;
   display: flex;
   align-items: center;
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
   @media (max-width:1024px){
     width: 40%;
     margin: 0px auto;
